@@ -1,8 +1,7 @@
-import React, { ChangeEvent, FC } from 'react';
+import React, { FC } from 'react';
 import '../App.css';
 import tick from "../images/tick.png"
 import { Link } from 'react-router-dom';
-import TodoPage from './TodoPage';
 
 const Home: FC = () => {
 

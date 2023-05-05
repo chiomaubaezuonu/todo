@@ -20,14 +20,15 @@ const TodoPage: FC = () => {
             taskName: task,
             taskDeadline: deadline
         }
+
         setTodoList([...todoList, myTask])
         setTask(" ")
         setDeadline(0)
-        
+
     }
 
     return (
-        <div className='bg-blue-800 '>
+        <div className=''>
             <div className='bg-blue-300 h-fit py-12 px-6 flex flex-col justify-center items-center'>
                 <h1 className='text-4xl my-3'> Welcome onboard</h1>
                 <div className='flex w-full'>
@@ -41,10 +42,17 @@ const TodoPage: FC = () => {
                 </div>
             </div>
             <div className='bg-blue-200 h-screen'>
-                <div>{task}</div>
-                <div>{deadline}</div>
+            <h1>Task List</h1>
+                {todoList.map((list) => {
+                   
+                    return <div className='flex py-6'>
+                        
+                        <div className='mr-2  text-black'>{list.taskName}</div>
+                        <div className='text-white bg-blue-900 w-7 text-center'>{list.taskDeadline}</div>
+                    </div>
+                })}
             </div>
-        </div>
+        </div >
     )
 }
 

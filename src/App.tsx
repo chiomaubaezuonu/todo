@@ -6,9 +6,7 @@ import TodoPage from './pages/TodoPage';
 
 const App: FC = () => {
 
-  const handleClick = () => {
-    alert("yes")
-  }
+  
   return (
     <div>
       <BrowserRouter>
