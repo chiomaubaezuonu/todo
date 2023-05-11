@@ -59,7 +59,7 @@ const TodoPage: FC = () => {
                 <hr></hr>
                 <div className='flex min-w-full'>
                     <input onChange={handleChange} value={deadline} name='deadline' className='w-full p-3 rounded-md my-2' placeholder='Add Deadline...' />
-                    {/* <img className='w-8 h-8 my-3 ml-2 cursor-pointer' src={plusImg} alt='plus-img' /> */}
+                    <img onClick={addTask} className='w-8 h-8 my-3 ml-2 cursor-pointer' src={plusImg} alt='plus-img' />
                 </div>
             </div>
             <div className='bg-blue-200 h-screen'>
