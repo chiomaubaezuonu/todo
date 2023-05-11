@@ -50,7 +50,7 @@ const TodoPage: FC = () => {
 
     return (
         <div className=''>
-            <div className='bg-blue-300 h-screen py-12 w-full  px-6 flex flex-col justify-center items-center'>
+            <div className='bg-blue-300 h-fit py-12 w-full  px-6 flex flex-col justify-center items-center'>
                 <h1 className='text-3xl my-3'> Welcome onboard</h1>
                 <div className='flex min-w-full'>
                     <input onChange={handleChange} value={task} name='task' className='w-full p-3 my-2 rounded-md' placeholder='Add Task...' />
@@ -62,7 +62,7 @@ const TodoPage: FC = () => {
                     {/* <img className='w-8 h-8 my-3 ml-2 cursor-pointer' src={plusImg} alt='plus-img' /> */}
                 </div>
             </div>
-            <div className='bg-blue-200'>
+            <div className='bg-blue-200 h-screen'>
                 <div className='flex justify-around pt-6'>
                     <h1>Task List</h1>
                     <h1>Deadline</h1>
