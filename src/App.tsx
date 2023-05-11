@@ -5,8 +5,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TodoPage from './pages/TodoPage';
 
 const App: FC = () => {
-
-  
   return (
     <div>
       <BrowserRouter>
