@@ -23,7 +23,7 @@ const SignUp: FC = () => {
             })
     }
     return (
-        <div className='bg-teal-100 h-full lg:h-full flex flex-col pt-12 lg:pt-4 pb-4  items-center'>
+        <div className='bg-teal-100 h-full lg:h-full flex flex-col px-8 pt-12 lg:pt-4 pb-4  items-center'>
             <form onSubmit={handleSubmit} className='w-full flex flex-col items-center'>
                 <h1 className='text-4xl mt-16 lg:mt-8 lg:mb-4 mb-8'>Welcome Onboard!</h1>
                 <p className='text-xl md:text-2xl mb-8'>Let's help you meet up your tasks.</p>
