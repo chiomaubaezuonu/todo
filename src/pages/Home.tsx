@@ -15,7 +15,7 @@ const Home: FC = () => {
                 <h3 className='text-3xl md:text-2xl text-black opacity-50 py-5 md:py-10'>Welcome to...</h3>
                 <h1 className='text-5xl md:text-4xl text-black py-5 md:py-10'>My Todo</h1>
                 <p className='text-2xl md:text-3xl text-black opacity-50 py-10'>Get things done and stay organized with My Todo App </p>
-                <Link to="/todo"> <button className='bg-blue-400 text-white rounded my-5 p-3 text-2xl cursor-pointer'>Get Started</button>
+                <Link to="/signup"> <button className='bg-blue-400 text-white rounded my-5 p-3 text-2xl cursor-pointer'>Get Started</button>
                 </Link>
             </div>
         </div>
